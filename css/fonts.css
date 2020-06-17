@@ -1,0 +1,78 @@
+@font-face {
+font-family: 'Operator Mono Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Bold'), url('../fonts/OperatorMono-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Extra Light';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Extra Light'), url('../fonts/OperatorMono-XLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Extra Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Extra Light Italic'), url('../fonts/OperatorMono-XLightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Light';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Light'), url('../fonts/OperatorMono-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Light Italic'), url('../fonts/OperatorMono-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Book';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Book Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Book Italic'), url('../fonts/OperatorMono-BookItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Medium'), url('../fonts/OperatorMono-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Operator Mono Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Operator Mono Medium Italic'), url('../fonts/OperatorMono-MediumItalic.woff') format('woff');
+}
