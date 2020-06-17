@@ -80,13 +80,18 @@ a {
   border-radius: 3px;
 }
 
+.search-box:hover {
+  border-color: white;
+  box-shadow: 0 0 2px white;
+}
+
 .search-field {
   height: 60px;
   margin: 0 0;
   width: calc(100% - 21px);
   padding-left: 20px;
   color: black;
-  font-family: 'Average', serif;
+  font-family: 'Operator Mono Medium Italic', sans-serif;
   font-size: 18px;
   border: 0;
   border-radius: 0;
@@ -168,7 +173,7 @@ a {
 
 .clickable:hover {
   border: solid white 4px;
-  box-shadow: 0 0 4px white;
+  box-shadow: 0 0 2px white;
   cursor: pointer;
 }
 
