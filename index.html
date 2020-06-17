@@ -16,7 +16,7 @@
 
     <div id="header">
       <div id="header-1">
-        <button class="header-button" onclick="showSettingsPanel();"></button>
+        <button class="header-button" onclick="showSettingsPanel();"><img src="images/menu.svg" alt="menu"></button>
         <div class="logo-text">
           <h1 class="header-title" id="inTitle"></h1>
           <h3 class="header-subtitle" id="inSubtitle"></h3>
@@ -34,76 +34,39 @@
     </div>
 
     <div id="cards">
-      <div class="c c-karolinefoto clickable" onclick="location.href='https://karolinefoto.com'">
+      <div class="c c-placeholder clickable" onclick="location.href='https://'">
         <div class="c-image"></div>
         <div class="c-text-box">
-          <h2 class="c-text">KarolineFoto</h2>
-          <h3 class="c-text">KarolineFoto's Official Website</h3>
+          <h2 class="c-text"></h2>
         </div>
       </div>
-      <div class="c c-t9 clickable" onclick="location.href='https://github.com/DanielSvindseth/TraditionalT9'">
+
+      <div class="c c-twitter clickable" onclick="location.href='https://twitter.com/'">
         <div class="c-image"></div>
         <div class="c-text-box">
-          <h2 class="c-text">TraditionalT9</h2>
-          <h3 class="c-text">forked from Clam-/TraditionalT9</h3>
+          <h2 class="c-text">Twitter</h2>
         </div>
       </div>
-      <div class="c c-firelauncher clickable" onclick="location.href='https://github.com/DanielSvindseth/FireLauncher'">
+      <div class="c c-github clickable" onclick="location.href='https://github.com/'">
         <div class="c-image"></div>
         <div class="c-text-box">
-          <h2 class="c-text">FireLauncher</h2>
-          <h3 class="c-text">a custom launcher for kaiOS</h3>
-        </div>
-      </div>
-      <div class="c c-firemusic clickable" onclick="location.href='https://github.com/DanielSvindseth/FireMusic'">
-        <div class="c-image"></div>
-        <div class="c-text-box">
-          <h2 class="c-text">FireMusic</h2>
-          <h3 class="c-text">a music player for kaiOS</h3>
-        </div>
-      </div>
-      <div class="c c-old clickable" onclick="location.href='legacy/index-old.html'">
-        <div class="c-image"></div>
-        <div class="c-text-box">
-          <h2 class="c-text">Old design</h2>
-          <h3 class="c-text">View the legacy version of this page</h3>
-        </div>
-      </div>
-      <div class="c c-game clickable" onclick="location.href='game.html'">
-        <div class="c-image"></div>
-        <div class="c-text-box">
-          <h2 class="c-text">Game</h2>
-          <h3 class="c-text">Play a game! (alpha)</h3>
-        </div>
-      </div>
-      <div class="c c-twitter clickable" onclick="location.href='https://twitter.com/DanielSvindseth'">
-        <div class="c-image"></div>
-        <div class="c-text-box">
-          <h2 class="c-text">@DanielSvindseth</h2>
-          <h3 class="c-text">Visit my Twitter profile</h3>
-        </div>
-      </div>
-      <div class="c c-github clickable" onclick="location.href='https://github.com/DanielSvindseth'">
-        <div class="c-image"></div>
-        <div class="c-text-box">
-          <h2 class="c-text">@DanielSvindseth</h2>
-          <h3 class="c-text">Visit my Github profile</h3>
+          <h2 class="c-text">Github</h2>
         </div>
       </div>
     </div>
 
     <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
     <div id="settings-panel" style="display: none;">
-      <button class="header-button" onclick="hideSettingsPanel();"></button>
+      <button class="header-button" onclick="hideSettingsPanel();"><img src="images/back.svg" alt="back"></button>
       <div class="settings-row">
         <div class="settings-panel-grp">
           <h1>Theme</h1>
         </div>
         <div class="settings-panel-grp">
-          <button type="button" name="button" class="settings-button" onclick="setTheme(1);">1</button>
-          <button type="button" name="button" class="settings-button" onclick="setTheme(2);">2</button>
-          <button type="button" name="button" class="settings-button" onclick="setTheme(3);">3</button>
-          <button type="button" name="button" class="settings-button" onclick="setTheme(4);">4</button>
+          <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1);"><h6>Pink & Blue</h6></button><!--
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(2);"><h6>Green & Blue</h6></button><!--
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(3);"><h6>Blue & Grey</h6></button><!--
+       --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(4); chooseHeaderColor1();"><h6>Random Color!</h6></button>
         </div>
       </div>
       <div class="settings-row">
