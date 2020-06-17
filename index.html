@@ -16,16 +16,20 @@
 
     <div id="header">
       <button class="header-button-back" onclick="showSettingsPanel();" id="inThemes"></button>
-      <button class="header-button-copyright" onclick="location.href='copyright.html'" id="inCopyright"></button>
-      <h1 class="header-title" id="inTitle"></h1>
-      <h3 class="header-subtitle" id="inSubtitle"></h3>
+      <div class="logo-text">
+        <h1 class="header-title" id="inTitle"></h1>
+        <h3 class="header-subtitle" id="inSubtitle"></h3>
+      </div>
+
+      <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
+        <img src="images/dax-logo.svg" alt="quack" height="56px">
+        <input class="search-field" type="text" name="q" placeholder="Search the Web" autocomplete="off"/>
+      </form>
     </div>
     <div class="header-box"></div>
 
     <div id="search">
-      <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
-        <input class="search-field" type="text" name="q" placeholder="Search the Web" autocomplete="off"/>
-      </form>
+      
     </div>
 
     <div id="cards">
