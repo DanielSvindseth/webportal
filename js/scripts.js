@@ -1,5 +1,5 @@
 //much java such script
-function switchTheme(){
+function switchTheme() {
   if (localStorage.theme==1) {
     localStorage.setItem("theme", "2");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm2.css');
@@ -21,7 +21,12 @@ function switchTheme(){
   }
 }
 
-function switchSet(){
+function setTheme(theme) {
+  localStorage.setItem("theme", theme);
+  document.getElementById('wow-theme').setAttribute('href', 'css/thm' + theme + '.css');
+}
+
+function switchSet() {
   if (localStorage.flashcardset==1) {
     localStorage.setItem("flashcardset", "2");
     document.getElementById('currentSet').setAttribute('src', 'flashcards/set2.js');

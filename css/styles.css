@@ -141,6 +141,13 @@ a {
 
 }
 
+.settings-button {
+  width: 80px;
+  height: 50px;
+  overflow: hidden;
+  margin: 8px 4px;
+}
+
 #cards {
   display: flex;
   flex-flow: row wrap;
@@ -324,12 +331,17 @@ a {
 /*  filter: blur(2px);*/
 }
 
+#header-1 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .header-box {
   height: 83px;
 }
 
 .header-title {
-  text-align: center;
+  text-align: left;
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 40px;
@@ -337,9 +349,17 @@ a {
 }
 
 .header-subtitle {
-  text-align: center;
+  text-align: left;
   padding-bottom: 4px;
   font-family: 'Operator Mono Book Italic', sans-serif;
+}
+
+.header-button {
+  height: 55px;
+  width: 55px;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-right: 12px;
 }
 
 .header-button-back {

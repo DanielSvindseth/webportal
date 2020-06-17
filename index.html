@@ -15,12 +15,13 @@
   <body onload="loadTheme(); firstVisit(); chooseHeaderColor1(); document.search.q.focus();">
 
     <div id="header">
-      <button class="header-button-back" onclick="showSettingsPanel();" id="inThemes"></button>
-      <div class="logo-text">
-        <h1 class="header-title" id="inTitle"></h1>
-        <h3 class="header-subtitle" id="inSubtitle"></h3>
+      <div id="header-1">
+        <button class="header-button" onclick="showSettingsPanel();"></button>
+        <div class="logo-text">
+          <h1 class="header-title" id="inTitle"></h1>
+          <h3 class="header-subtitle" id="inSubtitle"></h3>
+        </div>
       </div>
-
       <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
         <img src="images/dax-logo.svg" alt="quack" height="56px">
         <input class="search-field" type="text" name="q" placeholder="Search the Web" autocomplete="off"/>
@@ -29,7 +30,7 @@
     <div class="header-box"></div>
 
     <div id="search">
-      
+
     </div>
 
     <div id="cards">
@@ -93,14 +94,16 @@
 
     <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
     <div id="settings-panel" style="display: none;">
-      <button class="header-button-back" onclick="hideSettingsPanel();">Back</button>
-      <div class="header-box"></div>
+      <button class="header-button" onclick="hideSettingsPanel();"></button>
       <div class="settings-row">
         <div class="settings-panel-grp">
           <h1>Theme</h1>
         </div>
         <div class="settings-panel-grp">
-          <img src="images/favicon.png" alt="" height="80px">
+          <button type="button" name="button" class="settings-button" onclick="setTheme(1);">1</button>
+          <button type="button" name="button" class="settings-button" onclick="setTheme(2);">2</button>
+          <button type="button" name="button" class="settings-button" onclick="setTheme(3);">3</button>
+          <button type="button" name="button" class="settings-button" onclick="setTheme(4);">4</button>
         </div>
       </div>
       <div class="settings-row">
