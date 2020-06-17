@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Svindseth Home</title>
+    <title>Homepage</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1();">
+  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1(); document.search.q.focus();">
 
     <div id="header">
       <button class="header-button-back" onclick="showSettingsPanel();" id="inThemes"></button>
@@ -21,6 +21,12 @@
       <h3 class="header-subtitle" id="inSubtitle"></h3>
     </div>
     <div class="header-box"></div>
+
+    <div id="search">
+      <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
+        <input class="search-field" type="text" name="q" placeholder="Search the Web" value="Search"/>
+      </form>
+    </div>
 
     <div id="cards">
       <div class="c c-karolinefoto clickable" onclick="location.href='https://karolinefoto.com'">

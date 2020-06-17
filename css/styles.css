@@ -66,6 +66,32 @@ a {
   text-decoration: none;
 }
 
+#search {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: auto;
+}
+
+.search-box {
+  width: 450px;
+  margin: 10px 0;
+  border: solid lightgray 4px;
+  border-radius: 3px;
+}
+
+.search-field {
+  height: 60px;
+  margin: 0 0;
+  width: calc(100% - 21px);
+  padding-left: 20px;
+  color: black;
+  font-family: 'Average', serif;
+  font-size: 18px;
+  border: 0;
+  border-radius: 0;
+}
+
 #cover {
   height: 100vh;
   width: 100%;
