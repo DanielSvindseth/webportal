@@ -82,7 +82,7 @@ button:hover
   background-image: linear-gradient(#e51d98, #ce1a89);
   border-color: white;
   color: white;
-  box-shadow: 0 0 2px white;
+  box-shadow: 0 0 1px white;
 }
 
 button:active
