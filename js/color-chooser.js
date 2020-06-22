@@ -22,6 +22,15 @@ function applyCustomColor() {
   console.log('#' + customColor);
 }
 
+function switchAnimatedHeader() {
+  var headerAnimation = document.getElementsByClassName('game-surface-header')[0];
+  if (headerAnimation.style.display === 'block') {
+    headerAnimation.style.display = 'none';
+  } else {
+    headerAnimation.style.display = 'block';
+  }
+}
+
 /*
 function chooseButtonColor() {
   var r = Math.floor((Math.random() * 255) + 1);
